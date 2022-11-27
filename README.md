@@ -18,29 +18,35 @@ son6.txt son7.txt son8.txt son9.txt matheo
 son10.txt son11.txt son12.txt son13.txt son14.txt elise
 son15.txt son16.txt son17.txt son18.txt son19.txt theo...
 
+ces fichiers contiennent jusqu' 250 dates
+
 
 rajouter à la fin des fichiers d'onset (de type "onsets/son1.txt")
 les metadonnées suivantes:
-- un entier déterminant l'index du fichier son
-- nombre de slices (param minslicelength pour obtenir cette analyse)
-- threshold (sensibilité du paramètre threshold)
-- source du matériau (source: modalys)
-- auteur (Théo)
-- des groupes d'index de slices qui s'enchaînent bien
 
-soit pour les 5 premiers sons:
+- "son" + un entier déterminant l'index du fichier son (exemple: "file son1")
 
-1 222 glockenspiel-flute-piano feldman 32 43 54 67 - 45 49 40 48
+- le nombre de slices pour ce fichier son (NumItems 222)
+
+- minslicelength nombre de slices (param minslicelength pour obtenir cette analyse exemple "minslicelength 80")
+
+- threshold (sensibilité du paramètre threshold exemple "threshold 0.3")
+
+- source du matériau (exemple "source: modalys")
+- auteur ("auteur Théo")
+
+- des groupes d'index de slices qui s'enchaînent bien (en prévision de la composition pour acousmonium mobile) (exemple "enchainements: 32 43 54 67 ")
+
+soit pour le premier son (à la fin du fichier):
+
+file: son1.wav NumItems: 222 minslicelength:  222 threshold: 0.252 source: glockenspiel-flute-piano auteur: feldman enchainements: 32 43 54 67 - 45 49 40 48
 https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1.txt
 
-2 151 electronics romina   132 123 34 67 - 35 29 10 148
-https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son2.txt
+et pour les suivants:
 
-3 232 harp baker
+file: son2.wav minslicelength: 151 minslicelength: 80 source: electronics romina  enchainements: 132 123 34 67 - 35 29 10 148...
 
-4 113 cordes samuel-poirot
 
-5 45 plaque samuel-poirot 
 
 Les fichiers d'onset ont le même nom que le fichier son correspondant de type "sounds/son1.wav")
 
