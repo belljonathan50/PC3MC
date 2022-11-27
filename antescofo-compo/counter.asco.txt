@@ -5,8 +5,8 @@ BPM 40
  ;	oscsend pi3 192.168.1.63 : 5000 "/son"
 
  	oscsend pi1 192.168.1.175 : 5000 "/son"
-  	oscsend pi2 127.0.0.1 : 5000 "/son"
- 	oscsend pi3 127.0.0.1 : 5000 "/son"
+  	oscsend pi2 192.168.1.175 : 5000 "/son"
+ 	oscsend pi3 192.168.1.175 : 5000 "/son"
 
 oscsend fade 192.168.1.175 : 5000 "/fade"
 
@@ -25,12 +25,12 @@ oscsend fade 192.168.1.175 : 5000 "/fade"
  ; 	oscsend pi7 192.168.1.107 : 5000 "/test"
  ; 	oscsend pi8 192.168.1.108 : 5000 "/test"
 
- ; oscsend vol 192.168.1.175 : 5000 "/vol", \
- ;			 127.0.0.1 : 5000 "/vol", \
+ oscsend vol 192.168.1.175 : 5000 "/vol"
+ 			 127.0.0.1 : 5000 "/vol", \
  ;			 192.168.1.63 : 5000 "/vol"
 
- ; oscsend rev 192.168.1.175 : 5000 "/rev", \
- ;			 127.0.0.1 : 5000 "/rev", \
+ oscsend rev 192.168.1.175 : 5000 "/rev"
+ 			 127.0.0.1 : 5000 "/rev", \
  ;			 192.168.1.63 : 5000 "/rev"
 
  ; oscsend sync 192.168.1.175 : 5000 "/sync", \
