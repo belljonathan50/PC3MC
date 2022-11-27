@@ -25,14 +25,18 @@ les metadonnées suivantes:
 - nombre de slices (number of slices:)
 - source du matériau (source: modalys)
 - auteur (Théo)
-- des groupes d'index de slices
+- des groupes d'index de slices qui s'enchaînent bien
 
 soit pour les 5 premiers sons:
 
-1 222 glockenspiel-flute-piano feldman
-2 151 electronics romina
+1 222 glockenspiel-flute-piano feldman 32 43 54 67 - 45 49 40 48
+
+2 151 electronics romina   132 123 34 67 - 35 29 10 148
+
 3 232 harp baker
+
 4 113 cordes samuel-poirot
+
 5 45 plaque samuel-poirot 
 
 Les fichiers d'onset ont le même nom que le fichier son correspondant de type "sounds/son1.wav")
