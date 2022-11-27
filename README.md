@@ -2,8 +2,7 @@
 
 # modèle physique, classification de timbre,  Synthèse concaténative
 
-Dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs
-en mono .wav 44100
+Après collecte de sons dans derailer ou modalys, dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs, en mono .wav 44100
 
 
 son1.wav son2.wav son3.wav son4.wav son5.wav jonathan
