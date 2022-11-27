@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1
 
 et pour les suivants:
 
-file: son2.wav minslicelength: 151 minslicelength: 80 source: electronics romina  enchainements: 132 123 34 67 - 35 29 10 148...
+file: son2.wav NumItems: 151 minslicelength: 80 minslicelength: 80 source: electronics romina  enchainements: 132 123 34 67 - 35 29 10 148...
 
 
 
@@ -62,6 +62,6 @@ antescofo "maître" (antescofo-compo/cuelist.maxpat), envoie des déclenchements
 dans "antescofo-compo", modifier MyName.asco.txt, par exemple:
 MyName.asco.txt -> TheoYepez.asco.txt
 
-Un patch max (Max/sender.maxpat) pourra également jouer le rôle de maître, mais avec un contrôle moins précis
+Un patch max (Max/sender.maxpat) pourra également jouer le rôle de maître, mais avec un contrôle moins précis (l'objet qlist est l'ancêtre d'antescofo)
 
 Max/classificationduo.maxpat pourra également jouer le rôle de maître, mais ne charge que 2 sons à la fois. Pour "son1.wav" par exemple, prendre soin de retrouver les paramètres minslicelength et threshold à la fin de : https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1.txt
