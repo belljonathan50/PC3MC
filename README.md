@@ -1,5 +1,5 @@
 # PC3MC
-Dans PC3MC/puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs
+Dans PC3MC-main/puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs
 en mono .wav 44100, moins longs que 4 min 30 = 25MB
 google drive? matheo? wetransfer? (trop lourd pour github...)
 
@@ -11,9 +11,9 @@ son10.wav son11.wav son12.wav son13.wav son14.wav elise
 
 son15.wav son16.wav son17.wav son18.wav son19.wav theo...
 
-Copier ces fichiers dans PC3MC/sounds (vide par défaut, limitation github...)
+Copier ces fichiers dans PC3MC-main/sounds (vide par défaut, limitation github...)
 
-Dans PC3MC/puredata/onsets, créer les fichers correspondants:
+Dans PC3MC-main/puredata/onsets, créer les fichers correspondants:
 
 son1.txt son2.txt son3.txt son4.txt son5.txt jonathan
 
