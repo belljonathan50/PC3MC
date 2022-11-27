@@ -1,11 +1,11 @@
+flucoma:
+https://www.flucoma.org/download/
+
 antescofo:
 https://forum.ircam.fr/projects/detail/antescofo/
 
 bach:
 https://www.bachproject.net/
-
-flucoma:
-https://www.flucoma.org/download/
 
 modalys:
 https://forum.ircam.fr/projects/detail/modalys/
