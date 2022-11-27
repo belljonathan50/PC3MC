@@ -2,8 +2,9 @@
 
 # modèle physique, classification de timbre,  Synthèse concaténative
 
-Après collecte de sons dans derailer ou modalys, dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs, en mono .wav 44100
+La première étape consiste à générer des sons dans derailer ou modalys (et récupérer ceux des ICS). 
 
+Dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs, en mono .wav 44100
 
 son1.wav son2.wav son3.wav son4.wav son5.wav jonathan
 
@@ -23,7 +24,7 @@ son10.txt son11.txt son12.txt son13.txt son14.txt elise
 
 son15.txt son16.txt son17.txt son18.txt son19.txt theo...
 
-ces fichiers contiennent jusqu'à 250 dates
+ces fichiers contiennent jusqu'à 250 dates décrites en millisecondes
 
 
 rajouter à la fin des fichiers d'onset (de type "onsets/son1.txt")
