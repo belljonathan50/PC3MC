@@ -25,12 +25,12 @@ oscsend fade 192.168.1.175 : 5000 "/fade"
  ; 	oscsend pi7 192.168.1.107 : 5000 "/test"
  ; 	oscsend pi8 192.168.1.108 : 5000 "/test"
 
- oscsend vol 192.168.1.175 : 5000 "/vol"
- 			 127.0.0.1 : 5000 "/vol", \
+ oscsend vol 192.168.1.175 : 5000 "/vol", \
+ 			 127.0.0.1 : 5000 "/vol"
  ;			 192.168.1.63 : 5000 "/vol"
 
- oscsend rev 192.168.1.175 : 5000 "/rev"
- 			 127.0.0.1 : 5000 "/rev", \
+ oscsend rev 192.168.1.175 : 5000 "/rev", \
+ 			 127.0.0.1 : 5000 "/rev"
  ;			 192.168.1.63 : 5000 "/rev"
 
  ; oscsend sync 192.168.1.175 : 5000 "/sync", \
@@ -40,25 +40,25 @@ oscsend fade 192.168.1.175 : 5000 "/fade"
 ; vol 100
 ; rev 80
 
-fade 10
+fade 100
 
 NOTE C2 1 _0_1
-	pi2  1 123
+	pi2  5 12
 NOTE C#2 1 _0_2
 NOTE D2 1 _0_3
-	pi1  3 12
+	pi1  5 13
 NOTE D#2 1 _0_4
 	
 NOTE C2 1 _1_1
-	pi3  1 111
+	pi3  5 24
 NOTE C#2 1 _1_2
 NOTE D2 1 _1_3
 NOTE D#2 1 _1_4
-	pi1  1 22
+	pi1  5 40
 NOTE C2 1 _2_1
 	
 NOTE C#2 1 _2_2
-	pi2  1 5
+	pi2  5 13
 NOTE D2 1 _2_3
 NOTE D#2 1 _2_4
 NOTE C2 1 _3_1
