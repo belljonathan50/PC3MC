@@ -4,7 +4,7 @@
 
 La première étape consiste à générer des sons dans derailer ou modalys (et récupérer ceux des ICS). 
 
-Dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs, en mono .wav 44100
+Dans puredata/sounds, créer jusqu'à 4 ou 5 fichiers son chacun avec des index différents selon les auteurs, en mono .wav 44100
 
 son1.wav son2.wav son3.wav son4.wav son5.wav jonathan
 
