@@ -14,7 +14,7 @@ son15.wav son16.wav son17.wav son18.wav son19.wav theo...
 
 
 
-Dans PC3MC-main/puredata/onsets, créer les fichers correspondants:
+Dans PC3MC-main/puredata/onsets, créer les fichers correspondants, dont les analyses proviennent des messages "verts" du patch max classification duo:
 
 son1.txt son2.txt son3.txt son4.txt son5.txt jonathan
 
