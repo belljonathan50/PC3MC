@@ -59,5 +59,7 @@ Les fichiers d'onset ont le même nom que le fichier son correspondant de type "
 # Composition via antesofo sur raspberry
 antescofo "maître" (antescofo-compo/cuelist.maxpat), envoie des déclenchements aux patchs clients (puredata:patchrasp.pd)
 
+Un patch max (Max/sender.maxpat) pourra également jouer le rôle de maître, mais avec un contrôle moins précis
+
 dans "antescofo-compo", modifier MyName.asco.txt, par exemple:
 MyName.asco.txt -> TheoYepez.asco.txt
