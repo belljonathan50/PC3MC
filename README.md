@@ -45,7 +45,7 @@ les metadonnées suivantes:
 
 soit pour le premier son (à la fin du fichier):
 
-file: son1.wav NumItems: 222 minslicelength:  222 threshold: 0.252 source: glockenspiel-flute-piano auteur: feldman enchainements: 32 43 54 67 - 45 49 40 48
+file: son1.wav NumItems: 222 minslicelength:  253 threshold: 0.252 source: glockenspiel-flute-piano auteur: feldman enchainements: 32 43 54 67 - 45 49 40 48
 https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1.txt
 
 et pour les suivants:
@@ -59,7 +59,9 @@ Les fichiers d'onset ont le même nom que le fichier son correspondant de type "
 # Composition via antesofo sur raspberry
 antescofo "maître" (antescofo-compo/cuelist.maxpat), envoie des déclenchements aux patchs clients (puredata:patchrasp.pd)
 
-Un patch max (Max/sender.maxpat) pourra également jouer le rôle de maître, mais avec un contrôle moins précis
-
 dans "antescofo-compo", modifier MyName.asco.txt, par exemple:
 MyName.asco.txt -> TheoYepez.asco.txt
+
+Un patch max (Max/sender.maxpat) pourra également jouer le rôle de maître, mais avec un contrôle moins précis
+
+Max/classificationduo.maxpat pourra également jouer le rôle de maître, mais ne charge que 2 sons à la fois. Pour "son1.wav" par exemple, prendre soin de retrouver les paramètres minslicelength et threshold à la fin de : https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1.txt
