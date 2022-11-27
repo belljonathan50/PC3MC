@@ -11,7 +11,8 @@ son10.wav son11.wav son12.wav son13.wav son14.wav elise
 
 son15.wav son16.wav son17.wav son18.wav son19.wav theo...
 
-Copier ces fichiers dans PC3MC-main/sounds (vide par défaut, limitation github...)
+
+
 
 Dans PC3MC-main/puredata/onsets, créer les fichers correspondants:
 
