@@ -4,9 +4,11 @@ BPM 40
  ; 	oscsend pi2 127.0.0.1 : 5000 "/son"
  ;	oscsend pi3 192.168.1.63 : 5000 "/son"
 
- 	oscsend pi1 192.168.1.102 : 5000 "/son"
-  	oscsend pi2 192.168.1.103 : 5000 "/son"
- 	oscsend pi3 192.168.1.104 : 5000 "/son"
+ 	oscsend pi1 192.168.1.175 : 5000 "/son"
+  	oscsend pi2 127.0.0.1 : 5000 "/son"
+ 	oscsend pi3 127.0.0.1 : 5000 "/son"
+
+oscsend fade 192.168.1.175 : 5000 "/fade"
 
   ; oscsend pi4 192.168.1.175 : 5000 "/son"
   ; oscsend pi5 192.168.1.175 : 5000 "/son"
@@ -37,6 +39,8 @@ BPM 40
 
 ; vol 100
 ; rev 80
+
+fade 10
 
 NOTE C2 1 _0_1
 	pi2  1 123
