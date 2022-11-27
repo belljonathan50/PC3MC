@@ -22,7 +22,8 @@ son15.txt son16.txt son17.txt son18.txt son19.txt theo...
 rajouter à la fin des fichiers d'onset (de type "onsets/son1.txt")
 les metadonnées suivantes:
 - un entier déterminant l'index du fichier son
-- nombre de slices (number of slices:)
+- nombre de slices (param minslicelength pour obtenir cette analyse)
+- threshold (sensibilité du paramètre threshold)
 - source du matériau (source: modalys)
 - auteur (Théo)
 - des groupes d'index de slices qui s'enchaînent bien
@@ -30,8 +31,10 @@ les metadonnées suivantes:
 soit pour les 5 premiers sons:
 
 1 222 glockenspiel-flute-piano feldman 32 43 54 67 - 45 49 40 48
+https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son1.txt
 
 2 151 electronics romina   132 123 34 67 - 35 29 10 148
+https://raw.githubusercontent.com/belljonathan50/PC3MC/main/puredata/onsets/son2.txt
 
 3 232 harp baker
 
