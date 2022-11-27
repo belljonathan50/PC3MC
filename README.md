@@ -4,8 +4,11 @@ en mono .wav 44100, moins longs que 4 min 30 = 25MB
 google drive? matheo? wetransfer? (trop lourd pour github...)
 
 son1.wav son2.wav son3.wav son4.wav son5.wav jonathan
+
 son6.wav son7.wav son8.wav son9.wav matheo
+
 son10.wav son11.wav son12.wav son13.wav son14.wav elise
+
 son15.wav son16.wav son17.wav son18.wav son19.wav theo...
 
 Copier ces fichiers dans PC3MC/sounds (vide par défaut, limitation github...)
