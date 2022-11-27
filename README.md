@@ -1,6 +1,6 @@
 # PC3MC
-Dans puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs
-en mono .wav 44100
+Dans PC3MC/puredata/sounds, créer 4 ou 5 fichiers son chacun avec des index différents selon les auteurs
+en mono .wav 44100, moins longs que 4 min 30 = 25MB
 
 
 son1.wav son2.wav son3.wav son4.wav son5.wav jonathan
@@ -8,7 +8,9 @@ son6.wav son7.wav son8.wav son9.wav matheo
 son10.wav son11.wav son12.wav son13.wav son14.wav elise
 son15.wav son16.wav son17.wav son18.wav son19.wav theo...
 
-Dans puredata/onsets, créer les fichers correspondants:
+Copier ces fichiers dans PC3MC/sounds (vide par défaut, limitation github...)
+
+Dans PC3MC/puredata/onsets, créer les fichers correspondants:
 
 son1.txt son2.txt son3.txt son4.txt son5.txt jonathan
 son6.txt son7.txt son8.txt son9.txt matheo
@@ -22,7 +24,7 @@ les metadonnées suivantes:
 - nombre de slices (number of slices:)
 - source du matériau (source: modalys)
 - auteur (Théo)
-- des groupes d'index de slices
+- des groupes d'index de slices en prévision de l'écriture en antescofo
 
 soit pour les 5 premiers sons:
 
