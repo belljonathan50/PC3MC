@@ -1,0 +1,105 @@
+BPM 60
+
+ 	oscsend ll 192.168.0.103 : 5000 "/son"
+  	oscsend l 192.168.0.102 : 5000 "/son"
+ 	oscsend c 192.168.0.100 : 5000 "/son"
+ 	oscsend r 192.168.0.104 : 5000 "/son"
+ 	oscsend rr 192.168.0.101 : 5000 "/son"
+
+; oscsend fade 192.168.1.175 : 5000 "/fade"
+
+  ; oscsend pi4 192.168.1.175 : 5000 "/son"
+  ; oscsend pi5 192.168.1.175 : 5000 "/son"
+ ; 	oscsend pi6 192.168.1.175 : 5000 "/son"
+ ; 	oscsend pi7 192.168.1.175 : 5000 "/son"
+ ; 	oscsend pi8 192.168.1.175 : 5000 "/son"
+
+ ; 	oscsend pi1 192.168.1.101 : 5000 "/son"
+ ; 	oscsend pi2 192.168.1.102 : 5000 "/test"
+ ;	oscsend pi3 192.168.1.103 : 5000 "/test"
+ ; 	oscsend pi4 192.168.1.104 : 5000 "/test"
+ ;  oscsend pi5 192.168.1.105 : 5000 "/test"
+ ; 	oscsend pi6 192.168.1.106 : 5000 "/test"
+ ; 	oscsend pi7 192.168.1.107 : 5000 "/test"
+ ; 	oscsend pi8 192.168.1.108 : 5000 "/test"
+
+ ; oscsend vol 192.168.1.175 : 5000 "/vol", \
+ ;			 127.0.0.1 : 5000 "/vol"
+ ;			 192.168.1.63 : 5000 "/vol"
+
+ ; oscsend rev 192.168.1.175 : 5000 "/rev", \
+ ;			 127.0.0.1 : 5000 "/rev"
+ ;			 192.168.1.63 : 5000 "/rev"
+
+ ; oscsend sync 192.168.1.175 : 5000 "/sync", \
+ ;			 127.0.0.1 : 5000 "/sync", \
+ ;			 192.168.1.63 : 5000 "/sync"
+
+; vol 100
+; rev 80
+
+; fade 100
+
+NOTE C2 1 _0_1
+	ll  2 12
+NOTE C#2 1 _0_2
+NOTE D2 1 _0_3
+	l  1 13
+NOTE D#2 1 _0_4
+	
+NOTE C2 1 _1_1
+	c  1 24
+NOTE C#2 1 _1_2
+NOTE D2 1 _1_3
+	r  1 40
+NOTE D#2 1 _1_4
+NOTE C2 1 _2_1
+	rr  1 93
+NOTE C#2 1 _2_2
+NOTE D2 1 _2_3
+NOTE D#2 1 _2_4
+
+NOTE C2 1 _3_1
+	ll  1 12
+NOTE C#2 1 _3_2
+NOTE D2 1 _3_3
+	l  1 13
+NOTE D#2 1 _3_4
+
+NOTE C2 1 _4_1
+	c  1 24
+	
+NOTE C#2 1 _4_2
+NOTE D2 1 _4_3
+	r  1 40
+NOTE D#2 1 _4_4
+NOTE C2 1 _5_1
+	rr  1 113
+NOTE C#2 1 _5_2
+	1.5 pi2  3 212
+NOTE D2 1 _5_3
+NOTE D#2 1 _5_4
+	pi1  1 22
+	pi3  1 44
+
+NOTE C2 1 _6_1
+NOTE C#2 1 _6_2
+NOTE D2 1 _6_3
+	pi3  1 92
+NOTE D#2 1 _6_4
+NOTE C2 1 _7_1
+	pi2  1 57
+NOTE C#2 1 _7_2
+NOTE D2 1 _7_3
+NOTE D#2 1 _7_4
+	pi1  1 2
+	pi2  1 5
+	pi3  1 24
+
+
+NOTE C2 1 _8_1
+NOTE C#2 1 _8_2
+NOTE D2 1 _8_3
+NOTE D#2 1 _8_4
+	pi2  1 121
+
