@@ -1,0 +1,21 @@
+#N canvas 365 390 665 355 10;
+#X obj 0 88 *~;
+#X msg 0 0 bang;
+#X obj 0 116 dac~;
+#X obj 16 64 noise~;
+#X obj 0 43 line~;
+#X msg 0 22 1 \, 0 20;
+#X msg 213 135 \; pd dsp 1;
+#X msg 143 136 \; pd dsp 0;
+#X obj 143 111 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 213 110 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 5 0;
+#X connect 3 0 0 1;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;
+#X connect 8 0 7 0;
+#X connect 9 0 6 0;
